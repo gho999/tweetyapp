@@ -88,6 +88,6 @@ def main():
     dp.add_handler(MessageHandler(Filters.text, send_the_result))
     updater.start_polling()
     updater.idle()
-#main
+#main main
 if __name__ == '__main__':
     main()
